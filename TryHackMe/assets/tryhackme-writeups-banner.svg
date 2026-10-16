@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">TryHackMe write-up notes</title>
+  <desc id="desc">A red and violet cyber-themed banner for sanitized lab write-ups by gan_sh.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#100b1f"/>
+      <stop offset="0.55" stop-color="#3b1029"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fb7185"/>
+      <stop offset="0.5" stop-color="#f43f5e"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#fda4af" stroke-opacity=".10" stroke-width="1"/>
+      <circle cx="2" cy="2" r="1.4" fill="#fda4af" fill-opacity=".25"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="300" rx="26" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="26" fill="url(#grid)"/>
+  <circle cx="1010" cy="145" r="116" fill="#f43f5e" opacity=".08"/>
+  <circle cx="1010" cy="145" r="84" fill="none" stroke="url(#accent)" stroke-width="2" opacity=".8"/>
+  <circle cx="1010" cy="145" r="62" fill="none" stroke="#fb7185" stroke-width="1" stroke-dasharray="4 8" opacity=".7"/>
+  <path d="M884 145h44l18-32 28 64 20-38h25l17-24 19 30h44" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <path d="M62 62h70M62 72h42" stroke="#fb7185" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+  <text x="62" y="132" fill="#fff1f2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="5">GAN_SH  /  LEARNING LOG</text>
+  <text x="58" y="196" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="49" font-weight="800" letter-spacing="1">TRYHACKME NOTES</text>
+  <text x="62" y="235" fill="#fecdd3" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="500">My method • clear evidence • flags omitted</text>
+  <rect x="62" y="258" width="205" height="5" rx="2.5" fill="url(#accent)"/>
+</svg>
